@@ -9,12 +9,13 @@ const ResultUnit = (props) => {
   );
   const [imageUrl, setImageUrl] = useState(null);
 
-  const formattedString = props.amenities.length > 1 
-  ? `${props.amenities.slice(0, -1).join(', ')} and ${props.amenities.slice(-1)}`
-  : props.amenities[0];
+  const formattedString =
+    props.amenities.length > 1
+      ? `${props.amenities.slice(0, -1).join(", ")} and ${props.amenities.slice(
+          -1
+        )}`
+      : props.amenities[0];
 
-
-  
   useEffect(() => {
     const latitude = 37.7749;
     const longitude = -122.4194;
@@ -31,32 +32,45 @@ const ResultUnit = (props) => {
   return (
     <div className="result-unit">
       <div className="result-card">
-        <img
-          className="result-image"
-          src={props.image}
-          alt="Result Image"
-        />
+        <img className="result-image" src={props.image} alt="Result Image" />
         <div className="result-details">
           <h2 className="result-name">{props.name}</h2>
-          <p className="result-address"><strong>Address: </strong>{props.address}</p>
-          {props.amenities.length > 0 && (<p className="result-amenities"><strong>Amenities: </strong>{formattedString}</p>)}
-          {props.activities && (<p className="result-activities"><strong>Activities: </strong>{props.activities}</p>)}
-          <p className="result-attractions"><strong>Attractions: </strong>{props.attractions}</p>
+          <p className="result-address">
+            <strong>Address: </strong>
+            {props.address}
+          </p>
+          {props.amenities.length > 0 && (
+            <p className="result-amenities">
+              <strong>Amenities: </strong>
+              {formattedString}
+            </p>
+          )}
+          {props.activities && (
+            <p className="result-activities">
+              <strong>Activities: </strong>
+              {props.activities}
+            </p>
+          )}
+          <p className="result-attractions">
+            <strong>Attractions: </strong>
+            {props.attractions}
+          </p>
           <p className="result-rating">
             <span className="result-rating-value">{randomRating}</span>
             <span className="result-rating-out-of">/5</span>
           </p>
           <Tour />
         </div>
-        <img
-          className="result-maps-image"
-          src={imageUrl}
-          alt="Maps Image"
-        />
+        <p className="result-address">
+          <strong>Rate: </strong>
+          {props.rate} &nbsp; &nbsp;
+        </p>
+        &nbsp; &nbsp;
+        <button>Map view for price</button>
+        &nbsp; &nbsp;
+        <img className="result-maps-image" src={imageUrl} alt="Maps Image" />
       </div>
     </div>
-
-
   );
 };
 

@@ -26,6 +26,7 @@ export const sampleResponse = {
             "Miami Art Deco District",
             "Lincoln Road Mall"
           ],
+          "rate": "King room for $200",
           "activities_available": ["Snorkeling", "Parasailing", "Jet Skiing"],
           "checkin_options": ["Online", "In-person"],
           "_version_": 1765444107626348544
@@ -45,6 +46,7 @@ export const sampleResponse = {
             "Art Deco Historic District",
             "Miami Beach Boardwalk"
           ],
+          "rate": "King room for $220",
           "activities_available": ["Kayaking", "Paddleboarding", "Fishing"],
           "checkin_options": ["Online", "In-person"],
           "_version_": 1765444107659902976
@@ -64,6 +66,7 @@ export const sampleResponse = {
             "Isle Casino Racing Pompano Park",
             "Butterfly World"
           ],
+          "rate": "Queen room for $120",
           "activities_available": ["Golfing", "Tennis", "Spa"],
           "checkin_options": ["Online", "In-person"],
           "_version_": 1765444107662000128
@@ -83,6 +86,7 @@ export const sampleResponse = {
             "Duval Street",
             "Fort Zachary Taylor State Park"
           ],
+          "rate": "King room for $220",
           "activities_available": ["Snorkeling", "Diving", "Fishing"],
           "checkin_options": ["Online", "In-person"],
           "_version_": 1765444107662000129
@@ -102,6 +106,7 @@ export const sampleResponse = {
             "Naples Botanical Garden",
             "Tin city"
           ],
+          "rate": "King room for $220",
           "activities_available": ["Kayaking", "Paddleboarding", "Fishing"],
           "checkin_options": ["Online", "In-person"],
           "_version_": 1765444107663048704
@@ -121,6 +126,7 @@ export const sampleResponse = {
             "Empire State Building",
             "Grand Central Terminal"
           ],
+          "rate": "King room for $220",
           "activities_available": [
             "Museum Tours",
             "Central Park Walks",
@@ -144,6 +150,7 @@ export const sampleResponse = {
             "Empire State Building",
             "Times Square"
           ],
+          "rate": "King room for $220",
           "activities_available": [
             "Shopping",
             "Museum Tours",
@@ -167,6 +174,7 @@ export const sampleResponse = {
             "Empire State Building",
             "Central Park"
           ],
+          "rate": "King room for $220",
           "activities_available": [
             "Museum Tours",
             "Shopping",
@@ -190,6 +198,7 @@ export const sampleResponse = {
             "Lincoln Center",
             "American Museum of Natural History"
           ],
+          "rate": "King room for $220",
           "activities_available": [
             "Central Park Walks",
             "Shopping",
@@ -213,6 +222,7 @@ export const sampleResponse = {
             "Times Square",
             "Museum of Modern Art"
           ],
+          "rate": "King room for $220",
           "activities_available": [
             "Shopping",
             "Museum Tours",

@@ -77,3 +77,26 @@
     background-color: #0066cc;
   }
   
+  .button {
+    /* Add some padding to make the button more comfortable to click */
+    padding: 10px 20px;
+  
+    /* Add a background color and a border */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+  
+    /* Add some text styles */
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+  
+    /* Add some hover effects */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    /* Change the background color on hover */
+    :hover {
+      background-color: #0069d9;
+    }
+  }

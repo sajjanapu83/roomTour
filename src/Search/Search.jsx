@@ -120,6 +120,7 @@ const Search = () => {
                 .join(", ")} and ${result.point_of_interests.slice(-1)}`}
               latitude={result.latitude}
               longitude={result.longitude}
+              rate={result.rate}
             />
           ))}
         </div>
