@@ -1,0 +1,11 @@
+.pill {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.2em;
+    background-color: #e8e8e8;
+    border-radius: 999px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  
